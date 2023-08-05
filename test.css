@@ -1,12 +1,13 @@
 @charset "utf-8";
 
 body {
-        font-family: "MS Mincho", "Hiragino Mincho Pro";
+    font-family: "MS Gothic", "Hiragino Kaku Gothic Pro";
 }
 
 select {
   -webkit-appearance: none;
   appearance: none;
+  font-family: "MS UI Gothic", "Osaka-Mono";
 }
 
 input[type="text"]{
@@ -15,10 +16,6 @@ input[type="text"]{
 
 input[type="textarea"]{
     font-family: inherit;
-}
-
-select{
-    font-family: "MS UI Gothic", "Osaka-Mono";
 }
 
 #idtest{
