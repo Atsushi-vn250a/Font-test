@@ -1,10 +1,39 @@
 <html>
 <head>
   <title>Font-Test Page</title>
+<style>
+body {
+    /** font-family: "MS Gothic", "Hiragino Kaku Gothic Pro";**/
+        font-family: "MS Mincho", "Hiragino Mincho Pro";
+}
+
+select {
+  -webkit-appearance: none;
+  appearance: none;
+  font-family: "MS UI Gothic", "Osaka-Mono";
+}
+
+input[type="text"]{
+    font-family: "MS Mincho", "Hiragino Mincho Pro";
+}
+
+input[type="textarea"]{
+    font-family: inherit;
+}
+
+#idtest{
+    font-family: "MS Mincho", "Hiragino Mincho Pro";
+}
+
+.classtest{
+    font-family: "MS Mincho", "Hiragino Mincho Pro";
+}
+</style>
+  
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="Cache-Control" content="no-cache">
-　<link rel="stylesheet" href="test.css">
+　<!-- <link rel="stylesheet" href="test.css"> -->
 </head>
   <body>
     <form name="test">
