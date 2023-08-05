@@ -1,4 +1,32 @@
+@charset "utf-8";
 
 body {
-    font-family: "MS 明朝", "MS ゴシック" ;
+    font-family: "MS Gothic", "Hiragino Kaku Gothic Pro";
 }
+
+input[type="text"]{
+    font-family: "MS Mincho", "Hiragino Mincho Pro";
+}
+
+input[type="textarea"]{
+    font-family: inherit;
+}
+
+select{
+    font-family: "MS UI Gothic", "Osaka-Mono";
+}
+
+#idtest{
+    font-family: "MS Mincho", "Hiragino Mincho Pro";
+}
+
+.classtest{
+    font-family: "MS Mincho", "Hiragino Mincho Pro";
+}
+
+/**
+MS Gothic - Hiragino Kaku Gothic Pro
+MS UI Gothic - Osaka-Mono
+MS Mincho - Hiragino Mincho Pro
+
+**/
