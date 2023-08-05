@@ -4,6 +4,11 @@ body {
         font-family: "MS Mincho", "Hiragino Mincho Pro";
 }
 
+select {
+  -webkit-appearance: none;
+  appearance: none;
+}
+
 input[type="text"]{
     font-family: "MS Mincho", "Hiragino Mincho Pro";
 }
