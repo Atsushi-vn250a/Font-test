@@ -1,0 +1,66 @@
+<html>
+<head>
+  <title>Font-Test Page</title>
+<style>
+body {
+    /** font-family: "MS Gothic", "Hiragino Kaku Gothic Pro";**/
+        font-family: "MS Mincho", "Hiragino Mincho Pro";
+}
+
+select, option{
+  -webkit-appearance: none;
+  appearance: none;
+  /** font-family: "MS UI Gothic", "Osaka-Mono"; **/
+  font-family: "MS UI Gothic", "Hiragino Mincho Pro"; 
+  color: red;
+}
+
+input[type="text"]{
+    font-family: "MS Mincho", "Hiragino Mincho Pro";
+}
+
+input[type="textarea"]{
+    font-family: inherit;
+}
+
+#idtest{
+    font-family: "MS Mincho", "Hiragino Mincho Pro";
+    color: red;
+}
+
+.classtest{
+    font-family: "MS Mincho", "Hiragino Mincho Pro";
+    color: red;
+}
+</style>
+  
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="Cache-Control" content="no-cache">
+　<!-- <link rel="stylesheet" href="test.css"> -->
+</head>
+  <body>
+    <form name="test">
+      <label>テキストボックス1</label><input type="text" name="text1" value="あいうえお"><br>
+      <label>テキストエリア1</label><input type="textarea" name="text2" value="あいうえお"><br>
+      <label>コンボボックス１</label>
+          <select name="combo1" size=3>
+              <option>あいうえお</option>
+              <option>あいうえお</option>
+              <option>あいうえお</option>
+          </select><br>
+      <label>コンボボックス２</label>
+          <select id="idtest" name="combo2" size=3>
+              <option id="idtest">あいうえお</option>
+              <option id="idtest">あいうえお</option>
+              <option id="idtest">あいうえお</option>
+          </select><br>
+      <label>コンボボックス３</label>
+          <select class="classtest" name="combo3" size=3>
+              <option font="Hiragino Mincho Pro" color=red>あいうえお</option>
+              <option class="classtest">あいうえお</option>
+              <option class="classtest">あいうえお</option>
+          </select><br>
+    </form>
+  </body>
+</html>
